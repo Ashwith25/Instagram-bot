@@ -1,6 +1,6 @@
 from selenium import webdriver
 from time import sleep
-from credential import username, pw
+from credential import username, pw #create a credential.py file and enter your id and password.
 
 class InstaBot:
     def __init__(self, username, pw):
